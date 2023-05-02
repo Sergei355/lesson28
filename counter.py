@@ -25,4 +25,11 @@ class Counter:
     def count(self):
         return self.__count
 
+    def set_count(self, count):
+        if count >= 0:
+            self.count = count
+
+    def del_count(self):
+        del self.__count
+
 
