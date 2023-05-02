@@ -12,7 +12,7 @@ c3.decrement()
 c1.reset()
 
 
-print(c1)
+print(c1.count)
 print(c2)
 print(c3)
 print(c1)

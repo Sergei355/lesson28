@@ -21,4 +21,8 @@ class Counter:
     def __str__(self):
         return "Counter: " + str(self.__count)
 
+    @property
+    def count(self):
+        return self.__count
+
 
